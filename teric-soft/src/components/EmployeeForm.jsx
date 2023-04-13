@@ -86,7 +86,7 @@ const EmployeeForm = () => {
                 }}
             />
 
-            <FormControl component="fieldset">
+            <FormControl color="primary" component="fieldset">
                 <FormLabel component="legend" style={{ color: "#3f51b5", fontWeight: "540", fontSize: "1.2rem" }}>Gender</FormLabel>
                 <RadioGroup
                     aria-label="gender"
@@ -94,10 +94,23 @@ const EmployeeForm = () => {
                     value={formData.gender}
                     onChange={handleChange}
                 >
-                    <FormControlLabel value="male" control={<Radio />} label="Male" />
-                    <FormControlLabel value="female" control={<Radio />} label="Female" />
+                    <FormControlLabel
+                        color="primary"
+                        value="male"
+                        control={<Radio color="primary" checked={formData.gender === 'male'} />}
+                        label="Male"
+                        labelPlacement="end"
+                    />
+                    <FormControlLabel
+                        color="primary"
+                        value="female"
+                        control={<Radio color="primary" checked={formData.gender === 'female'} />}
+                        label="Female"
+                        labelPlacement="end"
+                    />
                 </RadioGroup>
             </FormControl>
+
             <Divider style={{ margin: '5px', backgroundColor: 'black', width: "100%" }} />
             <FormControl component="fieldset">
                 <FormLabel component="legend" style={{ color: "#3f51b5", fontWeight: "540", fontSize: "1.2rem" }}>Hobbies</FormLabel>
@@ -112,6 +125,7 @@ const EmployeeForm = () => {
                                 onChange={handleChange}
                                 name="hobbies"
                                 value="reading"
+                                color="primary"
                             />
                         }
                         label="Reading"
@@ -125,6 +139,7 @@ const EmployeeForm = () => {
                                 onChange={handleChange}
                                 name="hobbies"
                                 value="writing"
+                                color="primary"
                             />
                         }
                         label="Writing"
@@ -138,6 +153,7 @@ const EmployeeForm = () => {
                                 onChange={handleChange}
                                 name="hobbies"
                                 value="gaming"
+                                color="primary"
                             />
                         }
                         label="Gaming"
