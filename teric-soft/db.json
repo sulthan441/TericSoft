@@ -1,0 +1,43 @@
+{
+  "employees": [
+    {
+      "id": "1",
+      "name": "Mohammed Sulthan",
+      "email": "john.smith@example.com",
+      "phone": "555-1234",
+      "dob": "1990-01-01T00:00:00.000Z",
+      "gender": "male",
+      "hobbies": {
+        "reading": true,
+        "writing": false,
+        "gaming": true
+      }
+    },
+    {
+      "id": "2",
+      "name": "Jane Doe",
+      "email": "jane.doe@example.com",
+      "phone": "555-5678",
+      "dob": "1985-05-15T00:00:00.000Z",
+      "gender": "female",
+      "hobbies": {
+        "reading": true,
+        "writing": true,
+        "gaming": false
+      }
+    },
+    {
+      "name": "Mohammed Sulthan",
+      "email": "sulthanmohammedaman1122@gmail.com",
+      "phone": "6300537467",
+      "dob": "2023-04-12",
+      "gender": "male",
+      "hobbies": {
+        "reading": true,
+        "writing": true,
+        "gaming": false
+      },
+      "id": "Hd0-qF5"
+    }
+  ]
+}

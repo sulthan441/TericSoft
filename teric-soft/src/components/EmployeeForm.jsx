@@ -37,7 +37,30 @@ const EmployeeForm = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         console.log(formData);
+
+        fetch('http://localhost:8080/employees', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify(formData),
+        })
+            .then((response) => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.json();
+            })
+            .then((data) => {
+                console.log('Data received:', data);
+                // do something with the response data here
+            })
+            .catch((error) => {
+                console.error('Error:', error);
+                // handle the error here
+            });
     };
+
 
     return (
         <form onSubmit={handleSubmit}>
