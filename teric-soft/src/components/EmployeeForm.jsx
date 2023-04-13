@@ -9,6 +9,7 @@ import {
     Checkbox,
     FormGroup,
     Button,
+    Divider
 } from '@material-ui/core';
 import './EmployeeForm.css';
 const EmployeeForm = () => {
@@ -40,6 +41,15 @@ const EmployeeForm = () => {
 
     return (
         <form onSubmit={handleSubmit}>
+            <h2 style={{
+                textAlign: 'center',
+                color: '#3f51b5',
+                fontFamily: 'Montserrat',
+                fontWeight: 'bold',
+                textTransform: 'uppercase',
+                marginBottom: '2rem'
+            }}>Add Employee Details</h2>
+
             <TextField
                 id="name"
                 className="input-field"
@@ -56,6 +66,7 @@ const EmployeeForm = () => {
                 label="Email"
                 variant="outlined"
                 fullWidth
+                type="email"
                 name="email"
                 value={formData.email}
                 onChange={handleChange}
@@ -69,9 +80,14 @@ const EmployeeForm = () => {
                 name="phone"
                 value={formData.phone}
                 onChange={handleChange}
+                inputProps={{
+                    type: "tel",
+                    pattern: "^[0-9]{10}$",
+                }}
             />
+
             <FormControl component="fieldset">
-                <FormLabel component="legend">Gender</FormLabel>
+                <FormLabel component="legend" style={{ color: "#3f51b5", fontWeight: "540", fontSize: "1.2rem" }}>Gender</FormLabel>
                 <RadioGroup
                     aria-label="gender"
                     name="gender"
@@ -82,8 +98,10 @@ const EmployeeForm = () => {
                     <FormControlLabel value="female" control={<Radio />} label="Female" />
                 </RadioGroup>
             </FormControl>
+            <Divider style={{ margin: '5px', backgroundColor: 'black', width: "100%" }} />
             <FormControl component="fieldset">
-                <FormLabel component="legend">Hobbies</FormLabel>
+                <FormLabel component="legend" style={{ color: "#3f51b5", fontWeight: "540", fontSize: "1.2rem" }}>Hobbies</FormLabel>
+
                 <FormGroup>
                     <FormControlLabel
                         control={
@@ -126,6 +144,7 @@ const EmployeeForm = () => {
                     />
                 </FormGroup>
             </FormControl>
+            <Divider style={{ margin: '2px', backgroundColor: 'black', width: "100%" }} />
             <TextField
                 id="dob"
                 className="input-field"
