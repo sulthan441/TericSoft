@@ -87,7 +87,7 @@ export default function Navbar() {
                         <Typography variant="h6" className={classes.title}>
                             My-Employees
                         </Typography>
-                        
+
                         <div className={classes.menuLinks}>
                             {menuItems.map((item, index) => (
                                 <Button key={index} color="inherit" href={item.link}>

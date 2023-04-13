@@ -11,7 +11,7 @@ import {
     Button,
     Divider
 } from '@material-ui/core';
-import './EmployeeForm.css';
+import "../App.css"
 const EmployeeForm = () => {
     const [formData, setFormData] = useState({
         name: '',
@@ -53,11 +53,9 @@ const EmployeeForm = () => {
             })
             .then((data) => {
                 console.log('Data received:', data);
-                // do something with the response data here
             })
             .catch((error) => {
                 console.error('Error:', error);
-                // handle the error here
             });
     };
 

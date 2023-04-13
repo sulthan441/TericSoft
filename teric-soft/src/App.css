@@ -36,3 +36,72 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body {
+  background-image: url('https://images.pexels.com/photos/1187974/pexels-photo-1187974.jpeg?auto=compress&cs=tinysrgb&w=600'); 
+  background-size: cover;
+  background-position: center center;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  margin: 2rem auto;
+  width: 80%;
+  max-width: 600px;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  font-family: 'Roboto', sans-serif;
+  background-color: #ffffff;
+}
+
+.MuiFormControl-root {
+  width: 100%;
+}
+
+.MuiFormControlLabel-root {
+  margin-right: 0;
+}
+
+.MuiButton-root {
+  width: 50%;
+  margin-top: 1rem;
+  align-self: center;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #fff;
+  background-color: #3f51b5;
+  border: none;
+  border-radius: 4px;
+  padding: 0.8rem;
+  cursor: pointer;
+  transition: background-color 0.2s ease-in-out;
+}
+
+.MuiButton-root:hover {
+  background-color: #2c387e;
+}
+
+@media (max-width: 768px) {
+  .MuiButton-root {
+      width: 100%;
+  }
+}
