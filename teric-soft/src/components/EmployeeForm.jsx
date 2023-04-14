@@ -39,7 +39,14 @@ const EmployeeForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        console.log(formData);
+
+        // Check if input fields are filled
+        const isFormFilled = Object.values(formData).every((value) => value !== '' );
+
+        if (!isFormFilled) {
+            alert('Please fill all input fields.');
+            return;
+        }
 
         fetch('http://localhost:8080/employees', {
             method: 'POST',
@@ -50,7 +57,7 @@ const EmployeeForm = () => {
         })
             .then((response) => {
                 if (!response.ok) {
-                    throw new Error('Network response was not ok');
+                    throw new Error('Network response failed');
                 }
                 return response.json();
             })
@@ -62,6 +69,8 @@ const EmployeeForm = () => {
                 console.error('Error:', error);
             });
     };
+
+
 
 
     return (
