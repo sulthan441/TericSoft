@@ -1,368 +1,241 @@
 {
   "employees": [
     {
-      "name": "Mohammed Sulthan",
-      "email": "sulthanmohammedaman1122@gmail.com",
-      "phone": "6300537467",
-      "dob": "2023-04-05",
-      "gender": "male",
+      "name": "Emily Davis",
+      "email": "edavis@hotmail.com",
+      "phone": "555-2345",
+      "dob": "1993-09-14",
+      "gender": "Female",
       "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
+        "reading": false,
+        "writing": false,
+        "gaming": true
       },
       "id": "1"
     },
     {
-      "name": "Jane Smith",
-      "email": "janesmith@yahoo.com",
-      "phone": "555-5678",
-      "dob": "1995-02-15",
-      "gender": "female",
+      "name": "Mohammed Sulthan",
+      "email": "sulthanmohammedaman11@gmail.com",
+      "phone": "6300537468",
+      "dob": "2023-04-05",
+      "gender": "Male",
       "hobbies": {
-        "reading": true,
+        "reading": false,
         "writing": true,
         "gaming": false
       },
       "id": "2"
     },
     {
-      "name": "Bob Johnson",
-      "email": "bjohnson@hotmail.com",
-      "phone": "555-9012",
-      "dob": "1985-03-31",
-      "gender": "male",
+      "name": "aman",
+      "email": "mohammedsulthan441@gmail.com",
+      "phone": "6300537467",
+      "dob": "2023-04-26",
+      "gender": "Male",
       "hobbies": {
-        "reading": false,
-        "writing": true,
-        "gaming": true
+        "reading": true,
+        "writing": false,
+        "gaming": false
       },
       "id": "3"
     },
     {
-      "name": "Lisa Brown",
-      "email": "lbrown@gmail.com",
-      "phone": "555-3456",
-      "dob": "1992-05-12",
-      "gender": "female",
+      "name": "John Smith",
+      "email": "jsmith@gmail.com",
+      "phone": "555-1234",
+      "dob": "1990-01-01",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
         "writing": false,
-        "gaming": false
+        "gaming": true
       },
       "id": "4"
     },
     {
-      "name": "Mark Wilson",
-      "email": "mwilson@yahoo.com",
-      "phone": "555-7890",
-      "dob": "1988-07-22",
-      "gender": "male",
+      "name": "Alice Johnson",
+      "email": "ajohnson@yahoo.com",
+      "phone": "555-5678",
+      "dob": "1995-05-05",
+      "gender": "Female",
       "hobbies": {
-        "reading": true,
+        "reading": false,
         "writing": true,
-        "gaming": true
+        "gaming": true,
+        "hobbies": true
       },
       "id": "5"
     },
     {
-      "name": "Emily Davis",
-      "email": "edavis@hotmail.com",
-      "phone": "555-2345",
-      "dob": "1993-09-14",
-      "gender": "female",
+      "name": "Robert Brown",
+      "email": "rbrown@hotmail.com",
+      "phone": "555-2468",
+      "dob": "1987-11-23",
+      "gender": "Male",
       "hobbies": {
-        "reading": false,
+        "reading": true,
         "writing": false,
-        "gaming": true
+        "gaming": false
       },
       "id": "6"
     },
     {
-      "name": "Tom Lee",
-      "email": "tlee@gmail.com",
-      "phone": "555-6789",
-      "dob": "1987-11-05",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": false
-      },
-      "id": "7"
-    },
-    {
-      "name": "John Doe",
-      "email": "johndoe@gmail.com",
-      "phone": "555-1234",
-      "dob": "1990-01-01",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": true
-      },
-      "id": "8"
-    },
-    {
-      "name": "Jane Smith",
-      "email": "janesmith@yahoo.com",
-      "phone": "555-5678",
-      "dob": "1995-02-15",
-      "gender": "female",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
-      },
-      "id": "9"
-    },
-    {
-      "name": "Bob Johnson",
-      "email": "bjohnson@hotmail.com",
-      "phone": "555-9012",
-      "dob": "1985-03-31",
-      "gender": "male",
+      "name": "Emily Jones",
+      "email": "ejones@gmail.com",
+      "phone": "555-7890",
+      "dob": "1998-03-12",
+      "gender": "Female",
       "hobbies": {
         "reading": false,
         "writing": true,
         "gaming": true
       },
-      "id": "10"
+      "id": "7"
     },
     {
-      "name": "Lisa Brown",
-      "email": "lbrown@gmail.com",
-      "phone": "555-3456",
-      "dob": "1992-05-12",
-      "gender": "female",
+      "name": "David Lee",
+      "email": "dlee@yahoo.com",
+      "phone": "555-1357",
+      "dob": "1992-07-28",
+      "gender": "Male",
+      "hobbies": {
+        "reading": true,
+        "writing": true,
+        "gaming": false
+      },
+      "id": "8"
+    },
+    {
+      "name": "Sophia Hernandez",
+      "email": "shernandez@hotmail.com",
+      "phone": "555-3698",
+      "dob": "1994-09-17",
+      "gender": "Female",
       "hobbies": {
         "reading": true,
         "writing": false,
+        "gaming": true
+      },
+      "id": "9"
+    },
+    {
+      "name": "William Taylor",
+      "email": "wtaylor@gmail.com",
+      "phone": "555-8021",
+      "dob": "1985-12-31",
+      "gender": "Male",
+      "hobbies": {
+        "reading": true,
+        "writing": true,
+        "gaming": false
+      },
+      "id": "10"
+    },
+    {
+      "name": "Grace Anderson",
+      "email": "ganderson@yahoo.com",
+      "phone": "555-2468",
+      "dob": "1997-04-02",
+      "gender": "Female",
+      "hobbies": {
+        "reading": false,
+        "writing": true,
         "gaming": false
       },
       "id": "11"
     },
     {
-      "name": "Mark Wilson",
-      "email": "mwilson@yahoo.com",
-      "phone": "555-7890",
-      "dob": "1988-07-22",
-      "gender": "male",
+      "name": "Michael Davis",
+      "email": "mdavis@hotmail.com",
+      "phone": "555-1357",
+      "dob": "1988-10-20",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
-        "writing": true,
+        "writing": false,
         "gaming": true
       },
       "id": "12"
     },
     {
-      "name": "Emily Davis",
-      "email": "edavis@hotmail.com",
-      "phone": "555-2345",
-      "dob": "1993-09-14",
-      "gender": "female",
-      "hobbies": {
-        "reading": false,
-        "writing": false,
-        "gaming": true
-      },
-      "id": "13"
-    },
-    {
-      "name": "Tom Lee",
-      "email": "tlee@gmail.com",
-      "phone": "555-6789",
-      "dob": "1987-11-05",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": false
-      },
-      "id": "14"
-    },
-    {
-      "name": "Stephanie Baker",
-      "email": "sbaker@yahoo.com",
-      "phone": "555-1234",
-      "dob": "1991-12-25",
-      "gender": "female",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": true
-      },
-      "id": "15"
-    },
-    {
       "name": "John Doe",
       "email": "johndoe@gmail.com",
-      "phone": "555-1234",
-      "dob": "1990-01-01",
-      "gender": "male",
+      "phone": "555-9876",
+      "dob": "1987-03-22",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
         "writing": false,
         "gaming": true
       },
-      "id": "16"
+      "id": "11"
     },
     {
       "name": "Jane Smith",
       "email": "janesmith@yahoo.com",
-      "phone": "555-5678",
-      "dob": "1995-02-15",
-      "gender": "female",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
-      },
-      "id": "17"
-    },
-    {
-      "name": "Bob Johnson",
-      "email": "bjohnson@hotmail.com",
-      "phone": "555-9012",
-      "dob": "1985-03-31",
-      "gender": "male",
-      "hobbies": {
-        "reading": false,
-        "writing": true,
-        "gaming": true
-      },
-      "id": "18"
-    },
-    {
-      "name": "Lisa Brown",
-      "email": "lbrown@gmail.com",
-      "phone": "555-3456",
-      "dob": "1992-05-12",
-      "gender": "female",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": false
-      },
-      "id": "19"
-    },
-    {
-      "name": "Mark Wilson",
-      "email": "mwilson@yahoo.com",
-      "phone": "555-7890",
-      "dob": "1988-07-22",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": true
-      },
-      "id": "20"
-    },
-    {
-      "name": "Emily Davis",
-      "email": "edavis@hotmail.com",
-      "phone": "555-2345",
-      "dob": "1993-09-14",
-      "gender": "female",
-      "hobbies": {
-        "reading": false,
-        "writing": false,
-        "gaming": true
-      },
-      "id": "21"
-    },
-    {
-      "name": "Tom Lee",
-      "email": "tlee@gmail.com",
-      "phone": "555-6789",
-      "dob": "1987-11-05",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": false
-      },
-      "id": "22"
-    },
-    {
-      "name": "Stephanie Baker",
-      "email": "sbaker@yahoo.com",
       "phone": "555-1234",
-      "dob": "1991-12-25",
-      "gender": "female",
+      "dob": "1995-12-05",
+      "gender": "Female",
       "hobbies": {
-        "reading": true,
+        "reading": false,
         "writing": true,
-        "gaming": true
+        "gaming": false
       },
-      "id": "23"
+      "id": "12"
     },
     {
-      "name": "aman",
-      "email": "eve.holt@reqres.in",
-      "phone": "6300537467",
-      "dob": "2023-04-27",
-      "gender": "male",
+      "name": "David Lee",
+      "email": "davidlee@hotmail.com",
+      "phone": "555-4567",
+      "dob": "1980-07-18",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
         "writing": true,
         "gaming": false
       },
-      "id": "VwaeJu_"
+      "id": "13"
     },
     {
-      "name": "aman",
-      "email": "eve.holt@reqres.in",
-      "phone": "6300537467",
-      "dob": "2023-04-27",
-      "gender": "male",
+      "name": "Sarah King",
+      "email": "sarahkimmm@gmail.com",
+      "phone": "555-7899",
+      "dob": "1991-02-14",
+      "gender": "Male",
       "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
+        "reading": false,
+        "writing": false,
+        "gaming": true,
+        "hobbies": true
       },
-      "id": "pODFngG"
+      "id": "14"
     },
     {
       "name": "sulthan",
-      "email": "mohammedsulthan441@gmail.com",
-      "phone": "6300537467",
-      "dob": "2023-04-12",
-      "gender": "male",
+      "email": "eve.holt@reqres.in",
+      "phone": "6300537468",
+      "dob": "2023-04-07",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
         "writing": true,
-        "gaming": false
+        "gaming": true,
+        "hobbies": true
       },
-      "id": "Fbtne6p"
+      "id": "mi4UwG0"
     },
     {
-      "name": "sparx",
-      "email": "c@gmail.com",
+      "name": "aman",
+      "email": "aman@gmail.com",
       "phone": "6300537467",
-      "dob": "2023-04-14T00:26:35.568Z",
-      "gender": "male",
+      "dob": "2023-04-21",
+      "gender": "Male",
       "hobbies": {
         "reading": true,
         "writing": false,
-        "gaming": false
+        "gaming": true
       },
-      "id": "rpm-G2X"
-    },
-    {
-      "name": "Mohammed Sulthan",
-      "email": "sulthanmohammedaman1122@gmail.com",
-      "phone": "6300537467",
-      "dob": "2023-04-14T00:29:02.832Z",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": false,
-        "gaming": false
-      },
-      "id": "k5vQeyH"
+      "id": "1hpdV3H"
     }
   ]
 }

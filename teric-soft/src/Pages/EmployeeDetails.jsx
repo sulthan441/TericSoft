@@ -64,7 +64,10 @@ function EmployeeDetails() {
         fetch(`http://localhost:8080/employees/${id}`, {
             method: 'DELETE',
         })
-            .then(() => setEmployees(employees.filter((employee) => employee.id !== id)))
+            .then(() => {
+                setEmployees(employees.filter((employee) => employee.id !== id));
+                alert("Employee deleted successfully!")
+            })
             .catch((error) => console.log(error));
     };
 
@@ -92,7 +95,7 @@ function EmployeeDetails() {
 
     return (
         <Container style={{ backgroundColor: "white" }} maxWidth="lg" className={classes.root}>
-            <Typography style={{color:"#3f51b5"}} variant="h4" align="center" gutterBottom>
+            <Typography style={{ color: "#3f51b5" }} variant="h4" align="center" gutterBottom>
                 Employee Details
             </Typography>
             <Divider style={{ margin: '5px', backgroundColor: 'black', width: "100%" }} />
@@ -126,7 +129,7 @@ function EmployeeDetails() {
                                     <IconButton onClick={() => handleDelete(employee.id)}>
                                         <DeleteIcon className={classes.deleteButton} />
                                     </IconButton>
-                                    <IconButton onClick={() => handleEdit(employee.id)} component={Link} to={`/employeeform/${employee.id}`}>
+                                    <IconButton onClick={() => handleEdit(employee.id)} component={Link} to={`/employeedetails/${employee.id}`}>
                                         <EditIcon className={classes.edit} />
                                     </IconButton>
                                 </TableCell>

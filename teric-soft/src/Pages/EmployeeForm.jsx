@@ -21,7 +21,7 @@ const EmployeeForm = () => {
         email: '',
         phone: '',
         dob: new Date(),
-        gender: 'male',
+        gender: 'Male',
         hobbies: {
             reading: false,
             writing: false,
@@ -39,9 +39,7 @@ const EmployeeForm = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-
-        // Check if input fields are filled
-        const isFormFilled = Object.values(formData).every((value) => value !== '' );
+        const isFormFilled = Object.values(formData).every((value) => value !== '');
 
         if (!isFormFilled) {
             alert('Please fill all input fields.');
@@ -63,7 +61,8 @@ const EmployeeForm = () => {
             })
             .then((data) => {
                 console.log('Data received:', data);
-                navigate('/employeedetails'); // redirect to /employeedetails
+                alert("Employee added successfully!")
+                navigate('/employeedetails');
             })
             .catch((error) => {
                 console.error('Error:', error);
@@ -130,15 +129,15 @@ const EmployeeForm = () => {
                 >
                     <FormControlLabel
                         color="primary"
-                        value="male"
-                        control={<Radio color="primary" checked={formData.gender === 'male'} />}
+                        value="Male"
+                        control={<Radio color="primary" checked={formData.gender === 'Male'} />}
                         label="Male"
                         labelPlacement="end"
                     />
                     <FormControlLabel
                         color="primary"
-                        value="female"
-                        control={<Radio color="primary" checked={formData.gender === 'female'} />}
+                        value="Female"
+                        control={<Radio color="primary" checked={formData.gender === 'Female'} />}
                         label="Female"
                         labelPlacement="end"
                     />
