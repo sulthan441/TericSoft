@@ -11,8 +11,11 @@ import {
     Button,
     Divider
 } from '@material-ui/core';
+import { useNavigate } from "react-router-dom";
 import "../App.css"
 const EmployeeForm = () => {
+    const navigate = useNavigate();
+
     const [formData, setFormData] = useState({
         name: '',
         email: '',
@@ -53,6 +56,7 @@ const EmployeeForm = () => {
             })
             .then((data) => {
                 console.log('Data received:', data);
+                navigate('/employeedetails'); // redirect to /employeedetails
             })
             .catch((error) => {
                 console.error('Error:', error);

@@ -298,45 +298,6 @@
         "gaming": true
       },
       "id": "23"
-    },
-    {
-      "name": "aman",
-      "email": "eve.holt@reqres.in",
-      "phone": "6300537467",
-      "dob": "2023-04-27",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
-      },
-      "id": "VwaeJu_"
-    },
-    {
-      "name": "aman",
-      "email": "eve.holt@reqres.in",
-      "phone": "6300537467",
-      "dob": "2023-04-27",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
-      },
-      "id": "pODFngG"
-    },
-    {
-      "name": "sulthan",
-      "email": "mohammedsulthan441@gmail.com",
-      "phone": "6300537467",
-      "dob": "2023-04-12",
-      "gender": "male",
-      "hobbies": {
-        "reading": true,
-        "writing": true,
-        "gaming": false
-      },
-      "id": "Fbtne6p"
     }
   ]
 }
