@@ -31,6 +31,11 @@ This is a web application for managing employees. It allows users to add new emp
 
 ![image](https://user-images.githubusercontent.com/108915684/232032420-97886831-1cb1-4a2f-ab48-38bd980317dc.png)
 
+- Page Not Found 
+
+![image](https://user-images.githubusercontent.com/108915684/232245248-2e12847d-564a-494b-93cd-464834199df5.png)
+
+
 ### Installation
 1. Clone the repository: `git clone https://github.com/sulthan441/TericSoft.git`
 2. Install dependencies: `npm install`
